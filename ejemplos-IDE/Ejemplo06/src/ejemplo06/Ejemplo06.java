@@ -17,23 +17,24 @@ public class Ejemplo06 {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("----------------");
-        boolean a = 10>3;
+        boolean a = 10 > 3;
         System.out.println(a); // true
-        
+
         System.out.println("----------------");
-        System.out.println(10>=11); // false
-        
+        System.out.println(10 >= 11); // false
+
         System.out.println("----------------");
-        System.out.println(10<=10); // true
-        
+        System.out.println(10 <= 10); // true
+
         System.out.println("----------------");
-        System.out.println(10<2); // false
-        
+        System.out.println(10 < 2); // false
+
         System.out.println("----------------");
-        System.out.println(10==10); // true
-        
+        System.out.println(10 == 10); // true
+
         System.out.println("----------------");
-        System.out.println(10!=2); // true
+        System.out.println(10 != 2); // true
+                                     // <>
     }
-    
+
 }

@@ -18,21 +18,29 @@ public class Ejemplo05 {
         // TODO code application logic here
         System.out.println("----------------");
         System.out.println(10 / 3);
-        
+
         System.out.println("----------------");
         System.out.println(10 / 3.0);
-        
+
         System.out.println("----------------");
         System.out.println(10 / 3.0 + 1);
-        
+
         System.out.println("----------------");
-        System.out.println(10 % 3 );
-        
+        System.out.println(10 / (3.0 + 1));
+
+        System.out.println("----------------");
+        System.out.println(10 % 3);
+
         System.out.println("----------------");
         System.out.println(Math.pow(10, 2));
-        
+
         System.out.println("----------------");
         System.out.println(Math.sqrt(16));
+        
+        System.out.println("----------------");
+        double m = Math.sqrt(16);
+        System.out.println(m);
+        System.out.println("----------------");
     }
 
 }
